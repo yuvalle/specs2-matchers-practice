@@ -10,42 +10,42 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <specs2.version>3.6.1</specs2.version>
+        <specs2.version>4.10.5</specs2.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.11.7</version>
+            <version>2.12.0</version>
         </dependency>
         <dependency>
             <groupId>org.specs2</groupId>
-            <artifactId>specs2-core_2.11</artifactId>
+            <artifactId>specs2-core_2.12</artifactId>
             <version>${specs2.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.specs2</groupId>
-            <artifactId>specs2-junit_2.11</artifactId>
-            <version>${specs2.version}</version>
-            <scope>test</scope>            
-        </dependency>
-        <dependency>
-            <groupId>org.specs2</groupId>
-            <artifactId>specs2-matcher-extra_2.11</artifactId>
+            <artifactId>specs2-junit_2.12</artifactId>
             <version>${specs2.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.specs2</groupId>
-            <artifactId>specs2-mock_2.11</artifactId>
+            <artifactId>specs2-matcher-extra_2.12</artifactId>
             <version>${specs2.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.specs2</groupId>
-            <artifactId>specs2-scalacheck_2.11</artifactId>
+            <artifactId>specs2-mock_2.12</artifactId>
+            <version>${specs2.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2-scalacheck_2.12</artifactId>
             <version>${specs2.version}</version>
             <scope>test</scope>
           </dependency>
